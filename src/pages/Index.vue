@@ -1,5 +1,5 @@
 <template>
-<div style="height: 100vh;background-color: #002e44; color: #afbfdf; text-align: center; max-width: 1234px; margin: auto;">
+<div style="height: 100vh;background-color: #002e44; color: #afbfdf; text-align: center; width: 100vw; height: 100vh; margin: auto;">
   <Layout>
     
     <!-- Learn how to use images here: https://gridsome.org/docs/images -->

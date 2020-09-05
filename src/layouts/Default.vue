@@ -1,12 +1,14 @@
+
 <template>
   <div class="layout">
     <header class="header">
-      <strong>
-        <g-link to="/">{{ $static.metaData.siteName }}</g-link>
-      </strong>
-      <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
-        <g-link class="nav__link" to="/about">About</g-link>
+      <nav class="nav" style="margin: auto">
+        <g-link class="nav__link" to="/">Главная</g-link>
+       <g-link class="nav__link" to="/news">Новости</g-link>
+       <g-link class="nav__link" to="/plainairs">Пленеры</g-link>
+<g-link class="nav__link" to="/map">Карта</g-link>       
+       <g-link class="nav__link" to="/participants">Участники</g-link>
+        <g-link class="nav__link" to="/about">О проекте</g-link>
       </nav>
     </header>
     <slot/>
@@ -46,6 +48,7 @@ body {
 }
 
 .nav__link {
-  margin-left: 20px;
+  margin-left: 25px;	
+color: #aebede;
 }
 </style>
