@@ -23,6 +23,7 @@ query {
 
 <style>
 body {
+	background-color: 002e44;
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   margin:0;
   padding:0;
