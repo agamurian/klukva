@@ -1,12 +1,13 @@
 <template>
-  <div>
-    <g-image class="mapy" alt="Example image" src="./map.png" style="margin-left: -50vw; margin-top: 0px; width: 150vw;position:absolute; z-index:-100; position:fixed" />  
+  <div style="background-color: black; position: absolute; z-index: -200; width:100vw;">
+    <g-image class="mapy" alt="Example image" src="./map.jpg" style="margin-left: -50vw; margin-top: 0px; width: 150vw;position:absolute; z-index:-100; position:fixed" />  
 <div style="height: 100vh;background-image: ; color: #afbfdf; text-align: center; width: 100wv; margin: auto;">
 
   <Layout>
     
     <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <br><br><br>
+    <br>
+    <g-image alt="Helicoter" src="./ver.png" style="width: 162px; height:112px; margin-right: -2vw; margin-top: -2vh;" />
     <h1>Карта Пленера Клюква</h1>
     <br><br><br>
 
@@ -32,26 +33,23 @@ export default {
 
 @keyframes mapy {
     0% {
-        width:150vw;
-        margin-left:0vw;
-        margin-top: 0px;
-    }
-        50% {
-  margin-top: -2000px;  
-         margin-left: -200vw; 
-        width: 400vw;
+      opacity: 0.1;
+        width:200vw;
+        margin-left:-100vw;
+        margin-top: -100px;
     }
     100% {
-        width:150vw;
-        margin-left:0vw;
-        margin-top: 0px;
+      opacity: 1.0;
+        width:250vw;
+        margin-left:-70vw;
+        margin-top: -2000px;
     }
 
 }
 
 .mapy{
 animation-name: mapy;
-  animation-duration: 400s;  
+  animation-duration: 170s;  
 }
 
 
